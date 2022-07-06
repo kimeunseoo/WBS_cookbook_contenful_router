@@ -1,6 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 
-const Navbar = () => {
+const Pagecontainer = () => {
   return (
     <div>
       <h1>CookBook</h1>
@@ -14,4 +14,4 @@ const Navbar = () => {
   );
 }
 
-export default Navbar;
+export default Pagecontainer;
