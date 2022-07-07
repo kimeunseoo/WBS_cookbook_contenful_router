@@ -5,7 +5,6 @@ const VS = ({foodVS}) => {
   return (
     <div style={{display: "flex"}}>
         <nav style={{
-          borderRight: "solid 1px",
           padding: "1rem",
           marginTop: "3rem"
         }}>

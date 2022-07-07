@@ -30,12 +30,15 @@ function App() {
         <Route path="/" element={<Pagecontainer />} >
           <Route path="/hauptspeise" element={<HS foodHS={state}/>}>
             <Route path=":foodId" element={<HS_container foodState={state} />}/>
+            <Route index element={<p>Wählen Sie eine leckere hauptspeise aus!</p>} />
           </Route>
           <Route path="/vorspeise" element={<VS foodVS={state}/>} >
             <Route path=":foodId" element={<VS_container foodState={state} />}/>
+            <Route index element={<p>Wählen Sie eine leckere Vorspeise aus!</p>} />
           </Route>
           <Route path="/nachspeise" element={<NS foodNS={state}/>} >
             <Route path=":foodId" element={<NS_container foodState={state} />}/>
+            <Route index element={<p>Wählen Sie eine leckere Nachspeise aus!</p> } />
           </Route>
           <Route
             path="*"
