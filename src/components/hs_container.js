@@ -10,7 +10,7 @@ const HS_contianer = ({foodState}) => {
       .filter(item => item.fields.name === foodParam.foodId)
       .map(item => (
         <div>
-          <h2>Name: {item.fields.name}</h2>
+          <h2>{item.fields.name}</h2>
           <img src={item.fields.picture.fields.file.url} alt="hs" />
           <p>Beschreibung: {item.fields.description}</p>
           <ul>
