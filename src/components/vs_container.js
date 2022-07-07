@@ -13,12 +13,12 @@ const VS_contianer = ({foodState}) => {
           <div>
             <h2>Name: {item.fields.name}</h2>
             <img src={item.fields.picture.fields.file.url} alt="vs" />
-            <p>Beschreibung: {item.fields.discription}</p>
+            <p>Beschreibung: {item.fields.description}</p>
             <ul>
               {
-                Object.keys(item.fields.zutaten)
-                .map(zutat => (
-                  <li>{zutat}: {item.fields.zutaten[zutat]}</li>
+                Object.keys(item.fields.ingredients)
+                .map(ingredient => (
+                  <li>{ingredient}: {item.fields.ingredients[ingredient]}</li>
                 ))
               }
             </ul>

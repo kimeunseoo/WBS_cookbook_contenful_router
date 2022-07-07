@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 
 
@@ -10,16 +10,21 @@ const NS = ({foodNS}) => {
           padding: "1rem",
           marginTop: "3rem"
         }}>
-      {foodNS && foodNS.filter(item => item.fields.art==="ns")
+      {foodNS && foodNS.filter(item => item.fields.type==="ns")
       .map(item =>
-        <Link
-        style={{
-          display: "block", margin: "1rem 0"}}
+        <NavLink
+        style={({isActive}) =>{
+          return {
+            display: "block", 
+            margin: "1rem 0",
+            color: isActive?"orange":"",
+          }
+        }}
           to={`/nachspeise/${item.fields.name}`}
           key={item.sys.id}
         >
           {item.fields.name}
-        </Link>
+        </NavLink>
       )}
       </nav>
       <Outlet />

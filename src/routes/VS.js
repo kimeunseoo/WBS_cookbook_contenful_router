@@ -9,7 +9,7 @@ const VS = ({foodVS}) => {
           marginTop: "3rem"
         }}>
 
-        {foodVS && foodVS.filter(item => item.fields.art==="vs")
+        {foodVS && foodVS.filter(item => item.fields.type==="vs")
         .map(item => (
           <Link
           style={{

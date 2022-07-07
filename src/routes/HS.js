@@ -10,7 +10,7 @@ const HS = ({foodHS}) => {
           marginTop: "3rem"
         }}>
 
-        {foodHS && foodHS.filter(item => item.fields.art==="hs")
+        {foodHS && foodHS.filter(item => item.fields.type==="hs")
         .map(item => (
           <Link
           style={{

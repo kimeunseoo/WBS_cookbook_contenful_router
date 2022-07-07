@@ -12,12 +12,12 @@ const HS_contianer = ({foodState}) => {
         <div>
           <h2>Name: {item.fields.name}</h2>
           <img src={item.fields.picture.fields.file.url} alt="hs" />
-          <p>Beschreibung: {item.fields.discription}</p>
+          <p>Beschreibung: {item.fields.description}</p>
           <ul>
               {
-                Object.keys(item.fields.zutaten)
-                .map(zutat => (
-                  <li>{zutat}: {item.fields.zutaten[zutat]}</li>
+                Object.keys(item.fields.ingredients)
+                .map(ingredient => (
+                  <li>{ingredient}: {item.fields.ingredients[ingredient]}</li>
                 ))
               }
           </ul>
@@ -30,6 +30,3 @@ const HS_contianer = ({foodState}) => {
 }
 
 export default HS_contianer;
-
-
-//item.fields.zutaten
