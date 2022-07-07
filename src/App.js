@@ -1,7 +1,7 @@
 import './App.css';
 import * as contentful from "contentful";
 import { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {Routes, Route } from 'react-router-dom';
 import HS from "./routes/HS";
 import NS from "./routes/NS";
 import VS from "./routes/VS";
@@ -17,7 +17,7 @@ function App() {
   accessToken: "ABPR2uppJ_OyYtstFK3_H2-D4_3Qujcri1s8Kn8C1ww",
   });
 
-  const [state, setState] = useState();
+  const [state, setState] = useState([]);
 
   useEffect(() => {
     myAPI.getEntries("cookBook")
@@ -26,18 +26,16 @@ function App() {
   
 
   return (
-
-    <BrowserRouter>
       <Routes >
         <Route path="/" element={<Pagecontainer />} >
           <Route path="/hauptspeise" element={<HS foodHS={state}/>}>
-            <Route path=":foodId" element={<HS_container foodState={state} />} />
+            <Route path=":foodId" element={<HS_container foodState={state} />}/>
           </Route>
           <Route path="/vorspeise" element={<VS foodVS={state}/>} >
             <Route path=":foodId" element={<VS_container foodState={state} />}/>
           </Route>
           <Route path="/nachspeise" element={<NS foodNS={state}/>} >
-            <Route path=":foodId" element={<NS_container foodState={state} />}  />
+            <Route path=":foodId" element={<NS_container foodState={state} />}/>
           </Route>
           <Route
             path="*"
@@ -45,9 +43,6 @@ function App() {
           />
         </Route>
       </Routes>
-    </BrowserRouter>
-
-
   );
 }
 
