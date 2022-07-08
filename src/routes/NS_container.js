@@ -2,19 +2,15 @@ import { NavLink, Outlet } from "react-router-dom";
 
 
 
-const NS = ({foodNS}) => {
+const NS_container = ({foodNS}) => {
 
   return (
-    <div>
-      <input 
-        placeholder="Suche"
-        type="text" />
       <div style={{display: "flex"}}>
         <nav style={{
             padding: "1rem",
             marginTop: "3rem"
           }}>
-        {foodNS && foodNS.filter(item => item.fields.type==="ns")
+        {foodNS.filter(item => item.fields.type==="ns")
         .map(item =>
           <NavLink
           style={({isActive}) =>{
@@ -33,8 +29,7 @@ const NS = ({foodNS}) => {
         </nav>
         <Outlet />
       </div>
-    </div>
   );
 }
 
-export default NS;
+export default NS_container;

@@ -1,13 +1,14 @@
 import { useParams } from "react-router-dom";
 
-const VS_contianer = ({foodState}) => {
+const VS_element = ({foodState}) => {
+  console.log(foodState);
 
   const foodParam = useParams();
   
   return (
     <div>
       {
-        foodState && foodState
+        foodState
         .filter(item => item.fields.name === foodParam.foodId)
         .map(item => (
           <div>
@@ -29,4 +30,4 @@ const VS_contianer = ({foodState}) => {
   );
 }
 
-export default VS_contianer;
+export default VS_element;

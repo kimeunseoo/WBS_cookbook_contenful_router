@@ -1,19 +1,15 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-const VS = ({foodVS}) => {
+const VS_container = ({foodVS}) => {
 
   return (
-    <div>
-      <input 
-        placeholder="Suche"
-        type="text" />
       <div style={{display: "flex"}}>
           <nav style={{
             padding: "1rem",
             marginTop: "3rem"
           }}>
 
-          {foodVS && foodVS.filter(item => item.fields.type==="vs")
+          {foodVS.filter(item => item.fields.type==="vs")
           .map(item => 
             <NavLink
             style={({isActive})=>{
@@ -32,8 +28,7 @@ const VS = ({foodVS}) => {
           </nav>
           <Outlet />
         </div>
-    </div>
   )
 }
 
-export default VS;
+export default VS_container;

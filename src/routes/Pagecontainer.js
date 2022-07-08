@@ -1,13 +1,36 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 const Pagecontainer = () => {
   return (
     <div>
-      <h1>CookBook</h1>
+      <NavLink to="/"><h1>CookBook</h1></NavLink>
       <nav>
-        <Link to="/hauptspeise">Hauptspeise</Link> |{" "}
-        <Link to="/vorspeise">Vorpseise</Link> |{" "}
-        <Link to="/nachspeise">Nachspeise</Link>
+        <NavLink
+         to="/hauptspeise"
+         style={({isActive}) => {
+          return {
+            color: isActive?"orange":""
+          }
+         }}
+        >Hauptspeise</NavLink> |{" "}
+        
+        <NavLink
+         to="/vorspeise"
+         style={({isActive}) => {
+          return {
+            color: isActive?"orange":""
+          }
+         }}
+        >Vorpseise</NavLink> |{" "}
+
+        <NavLink 
+          to="/nachspeise"
+          style={({isActive}) => {
+            return {
+              color: isActive?"orange":""
+            }
+          }}
+        >Nachspeise</NavLink>
       </nav>
       <Outlet />
     </div>

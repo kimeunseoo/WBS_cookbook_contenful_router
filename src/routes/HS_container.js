@@ -1,25 +1,21 @@
 import { NavLink, Outlet } from "react-router-dom";
 
-const HS = ({foodHS}) => {
+const HS_container = ({foodHS}) => {
 
 
   return (
-    <div>
-      <input 
-        placeholder="Suche"
-        type="text" />
       <div style={{display: "flex"}}>
           <nav style={{
             padding: "1rem",
             marginTop: "3rem"
           }}>
 
-          {foodHS && foodHS.filter(item => item.fields.type==="hs")
+          {foodHS.filter(item => item.fields.type==="hs")
           .map(item => 
             <NavLink
             style={({isActive}) =>{
               return {
-                display: "block", 
+                display: "block",
                 margin: "1rem 0",
                 color: isActive?"orange":""
               }}
@@ -34,10 +30,9 @@ const HS = ({foodHS}) => {
           </nav>
           <Outlet />
         </div>
-    </div>
   )
 }
       
 
-export default HS;
+export default HS_container;
 
