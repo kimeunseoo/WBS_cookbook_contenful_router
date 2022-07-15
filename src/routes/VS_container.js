@@ -11,8 +11,6 @@ const VS_container = ({foodVS}) => {
             <NavLink
             style={({isActive})=>{
               return {
-                display: "block", 
-                margin: "1rem 0",
                 color: isActive?"#1443c2":""
               }}
               }

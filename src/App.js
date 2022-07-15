@@ -24,12 +24,17 @@ function App() {
   //   .then(res => setState(res.items))
   // }, [])
 
+  const getFetch = async () => {
+    const res = await myAPI.getEntries("cookBook");
+    setState(res.items);
+  }
+
   useEffect(() => {
-    const getFetch = async () => {
-      const res = await myAPI.getEntries("cookBook");
-      setState(res.items);
+    try {
+      getFetch();
+    } catch (error) {
+      console.log("Error: " + error);
     }
-    getFetch();
   }, []);
 
   return (
