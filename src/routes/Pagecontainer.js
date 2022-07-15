@@ -4,14 +4,13 @@ const Pagecontainer = () => {
   return (
     <div className="main-div-container">
       <nav className="main-nav">
-        <NavLink to="/"><h1 className="test">CookBook</h1></NavLink>
+        <NavLink to="/"><h1>CookBook</h1></NavLink>
 
         <NavLink
-        className="test"
           to="/hauptspeise"
           style={({isActive}) => {
           return {
-            color: isActive?"orange":""
+            color: isActive?"#1443c2":""
           }
           }}
         >
@@ -22,7 +21,7 @@ const Pagecontainer = () => {
           to="/vorspeise"
           style={({isActive}) => {
           return {
-            color: isActive?"orange":""
+            color: isActive?"#1443c2":""
           }
           }}
         >
@@ -33,7 +32,7 @@ const Pagecontainer = () => {
           to="/nachspeise"
           style={({isActive}) => {
             return {
-              color: isActive?"orange":""
+              color: isActive?"#1443c2":""
             }
           }}
         >

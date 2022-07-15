@@ -12,9 +12,7 @@ const HS_container = ({foodHS}) => {
             <NavLink
             style={({isActive}) =>{
               return {
-                display: "block",
-                margin: "1rem 0",
-                color: isActive?"orange":""
+                color: isActive?"#1443c2":""
               }}
               }
               to={`/hauptspeise/${item.fields.name}`}

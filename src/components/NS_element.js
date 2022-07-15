@@ -13,7 +13,7 @@ const NS_element = ({foodState}) => {
         <div>
           <h2>{item.fields.name}</h2>
           <img src={item.fields.picture.fields.file.url} alt="ns" />
-          <p>Beschreibung: {item.fields.description}</p>
+          <p>{item.fields.description}</p>
           <ul>
             {
             Object.keys(item.fields.ingredients)

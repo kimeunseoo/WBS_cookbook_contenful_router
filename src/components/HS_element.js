@@ -2,10 +2,9 @@ import { useParams } from "react-router-dom";
 
 const HS_element = ({foodState}) => {
   const foodParam = useParams();
-  console.log(foodState);
 
   return (
-    <div className="food-element">
+    <div>
       {
       foodState
       .filter(item => item.fields.name === foodParam.foodId)
@@ -13,7 +12,7 @@ const HS_element = ({foodState}) => {
         <div>
           <h2>{item.fields.name}</h2>
           <img src={item.fields.picture.fields.file.url} alt="hs" />
-          <p>Beschreibung: {item.fields.description}</p>
+          <p>{item.fields.description}</p>
           <ul>
               {
                 Object.keys(item.fields.ingredients)

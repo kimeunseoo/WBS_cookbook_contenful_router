@@ -1,7 +1,6 @@
 import { useParams } from "react-router-dom";
 
 const VS_element = ({foodState}) => {
-  console.log(foodState);
 
   const foodParam = useParams();
   
@@ -14,7 +13,7 @@ const VS_element = ({foodState}) => {
           <div>
             <h2>{item.fields.name}</h2>
             <img src={item.fields.picture.fields.file.url} alt="vs" />
-            <p>Beschreibung: {item.fields.description}</p>
+            <p>{item.fields.description}</p>
             <ul>
               {
                 Object.keys(item.fields.ingredients)

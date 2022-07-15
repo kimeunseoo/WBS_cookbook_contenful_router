@@ -37,11 +37,11 @@ function App() {
         <Route path="/" element={<Pagecontainer />} >
           <Route path="/hauptspeise" element={<HS_container foodHS={state} />}>
             <Route path=":foodId" element={<HS_element foodState={state} />}/>
-            <Route index element={<p>Wählen Sie eine leckere hauptspeise aus!</p>} />
+            <Route index element={<p>Wählen Sie eine leckere Hauptspeise aus!</p> } />
           </Route>
           <Route path="/vorspeise" element={<VS_container foodVS={state}/>} >
             <Route path=":foodId" element={<VS_element foodState={state} />}/>
-            <Route index element={<p>Wählen Sie eine leckere Vorspeise aus!</p>} />
+            <Route index element={<p>Wählen Sie eine leckere Vorspeise aus!</p> } />
           </Route>
           <Route path="/nachspeise" element={<NS_container foodNS={state}/>} >
             <Route path=":foodId" element={<NS_element foodState={state} />}/>

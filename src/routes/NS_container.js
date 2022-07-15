@@ -1,12 +1,12 @@
 import { NavLink, Outlet } from "react-router-dom";
 
 
-
 const NS_container = ({foodNS}) => {
 
   return (
       <div  className="side-nav-container">
         <nav className="side-nav">
+
         {foodNS.filter(item => item.fields.type==="ns")
         .map(item =>
           <NavLink
@@ -14,7 +14,7 @@ const NS_container = ({foodNS}) => {
             return {
               display: "block", 
               margin: "1rem 0",
-              color: isActive?"orange":"",
+              color: isActive?"#1443c2":"",
             }
           }}
             to={`/nachspeise/${item.fields.name}`}
