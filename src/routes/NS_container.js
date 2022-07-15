@@ -7,7 +7,7 @@ const NS_container = ({foodNS}) => {
       <div  className="side-nav-container">
         <nav className="side-nav">
 
-        {foodNS.filter(item => item.fields.type==="ns")
+        {foodNS
         .map(item =>
           <NavLink
           style={({isActive}) =>{

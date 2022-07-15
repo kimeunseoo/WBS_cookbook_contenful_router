@@ -6,7 +6,7 @@ const VS_container = ({foodVS}) => {
       <div  className="side-nav-container">
           <nav className="side-nav">
 
-          {foodVS.filter(item => item.fields.type==="vs")
+          {foodVS
           .map(item => 
             <NavLink
             style={({isActive})=>{

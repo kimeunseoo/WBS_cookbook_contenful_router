@@ -7,7 +7,7 @@ const HS_container = ({foodHS}) => {
       <div className="side-nav-container">
           <nav className="side-nav">
 
-          {foodHS.filter(item => item.fields.type==="hs")
+          {foodHS
           .map(item => 
             <NavLink
             style={({isActive}) =>{

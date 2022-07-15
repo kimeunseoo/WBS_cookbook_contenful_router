@@ -17,7 +17,15 @@ function App() {
   accessToken: "ABPR2uppJ_OyYtstFK3_H2-D4_3Qujcri1s8Kn8C1ww",
   });
 
-  const [state, setState] = useState([]);
+  const [filteredHS, setFilteredHS] = useState([]);
+  const [filteredVS, setFilteredVS] = useState([]);
+  const [filteredNS, setFilteredNS] = useState([]);
+
+  const foodFilter = (items) => {
+      setFilteredHS(items.filter(item => item.fields.type === "hs"))
+      setFilteredVS(items.filter(item => item.fields.type === "vs"))
+      setFilteredNS(items.filter(item => item.fields.type === "ns"))
+  }
 
   // useEffect(() => {
   //   myAPI.getEntries("cookBook")
@@ -26,7 +34,7 @@ function App() {
 
   const getFetch = async () => {
     const res = await myAPI.getEntries("cookBook");
-    setState(res.items);
+    foodFilter(res.items);
   }
 
   useEffect(() => {
@@ -40,16 +48,16 @@ function App() {
   return (
       <Routes >
         <Route path="/" element={<Pagecontainer />} >
-          <Route path="/hauptspeise" element={<HS_container foodHS={state} />}>
-            <Route path=":foodId" element={<HS_element foodState={state} />}/>
+          <Route path="/hauptspeise" element={<HS_container foodHS={filteredHS} />}>
+            <Route path=":foodId" element={<HS_element foodState={filteredHS} />}/>
             <Route index element={<p>Wählen Sie eine leckere Hauptspeise aus!</p> } />
           </Route>
-          <Route path="/vorspeise" element={<VS_container foodVS={state}/>} >
-            <Route path=":foodId" element={<VS_element foodState={state} />}/>
+          <Route path="/vorspeise" element={<VS_container foodVS={filteredVS}/>} >
+            <Route path=":foodId" element={<VS_element foodState={filteredVS} />}/>
             <Route index element={<p>Wählen Sie eine leckere Vorspeise aus!</p> } />
           </Route>
-          <Route path="/nachspeise" element={<NS_container foodNS={state}/>} >
-            <Route path=":foodId" element={<NS_element foodState={state} />}/>
+          <Route path="/nachspeise" element={<NS_container foodNS={filteredNS}/>} >
+            <Route path=":foodId" element={<NS_element foodState={filteredNS} />}/>
             <Route index element={<p>Wählen Sie eine leckere Nachspeise aus!</p> } />
           </Route>
           <Route
