@@ -13,8 +13,7 @@ const NS_container = ({foodNS}) => {
           style={({isActive}) =>{
             return {
               color: isActive?"#1443c2":"",
-            }
-          }}
+            }}}
             to={`/nachspeise/${item.fields.name}`}
             key={item.sys.id}
           >

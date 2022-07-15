@@ -14,13 +14,11 @@ const VS_element = ({foodState}) => {
             <h2>{item.fields.name}</h2>
             <img src={item.fields.picture.fields.file.url} alt="vs" />
             <p>{item.fields.description}</p>
-            <ul>
-              {
-                Object.keys(item.fields.ingredients)
-                .map((ingredient, index) => (
-                  <li key={index}>{ingredient}: {item.fields.ingredients[ingredient]}</li>
-                ))
-              }
+            <ul>Zutaten:
+              {Object.keys(item.fields.ingredients)
+              .map((ingredient, index) => (
+                <li key={index}>{ingredient}: {item.fields.ingredients[ingredient]}</li>
+              ))}
             </ul>
           </div>
         ))

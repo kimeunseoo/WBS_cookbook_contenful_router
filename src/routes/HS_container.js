@@ -8,13 +8,12 @@ const HS_container = ({foodHS}) => {
           <nav className="side-nav">
 
           {foodHS
-          .map(item => 
+          .map(item =>
             <NavLink
             style={({isActive}) =>{
               return {
                 color: isActive?"#1443c2":""
-              }}
-              }
+              }}}
               to={`/hauptspeise/${item.fields.name}`}
               key={item.sys.id}
             >

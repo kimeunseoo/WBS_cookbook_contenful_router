@@ -12,8 +12,7 @@ const VS_container = ({foodVS}) => {
             style={({isActive})=>{
               return {
                 color: isActive?"#1443c2":""
-              }}
-              }
+              }}}
               to={`/vorspeise/${item.fields.name}`}
               key={item.sys.id}
             >
