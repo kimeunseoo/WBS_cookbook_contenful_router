@@ -5,9 +5,9 @@ import {Routes, Route } from 'react-router-dom';
 import HS_container from "./routes/HS_container";
 import NS_container from "./routes/NS_container";
 import VS_container from "./routes/VS_container";
-import HS_element from "./components/HS_element";
-import VS_element from "./components/VS_element";
-import NS_element from "./components/NS_element";
+import HS_element from "./routes/HS_element";
+import VS_element from "./routes/VS_element";
+import NS_element from "./routes/NS_element";
 import Pagecontainer from './routes/Pagecontainer';
 
 function App() {
