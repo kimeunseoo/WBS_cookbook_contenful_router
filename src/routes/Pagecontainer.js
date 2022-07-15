@@ -2,7 +2,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const Pagecontainer = () => {
   return (
-    <div className="main-div-container">
+    <>
       <nav className="main-nav">
         <NavLink to="/"><h1>CookBook</h1></NavLink>
 
@@ -40,7 +40,7 @@ const Pagecontainer = () => {
         </NavLink>
       </nav>
         <Outlet />
-    </div>
+    </>
 
   );
 }

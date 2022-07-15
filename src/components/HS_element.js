@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 const HS_element = ({foodState}) => {
   const foodParam = useParams();
-
+  console.log(foodParam);
   return (
     <div>
       {
