@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-
 * {
   padding: 0;
   margin: 0;
@@ -16,12 +15,11 @@
 } */
 
 body {
-  font-family: Poppins;
+  font-family: "Poppins";
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(181,181,224,1) 0%, rgba(186,255,200,1) 100%);
   display: flex;
   justify-content: center;
   padding: 2rem;
-  height: 100vh;
 }
 
 img {
@@ -51,8 +49,6 @@ ul {
 li {
   line-height: 1.8rem;
 }
-
-
 
 .main-nav {
   display: flex;

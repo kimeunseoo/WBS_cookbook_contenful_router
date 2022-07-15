@@ -21,7 +21,7 @@ function App() {
   const [filteredVS, setFilteredVS] = useState([]);
   const [filteredNS, setFilteredNS] = useState([]);
 
-  const foodFilter = (items) => {
+  const filterFoodTypes = (items) => {
       setFilteredHS(items.filter(item => item.fields.type === "hs"))
       setFilteredVS(items.filter(item => item.fields.type === "vs"))
       setFilteredNS(items.filter(item => item.fields.type === "ns"))
@@ -34,7 +34,7 @@ function App() {
 
   const getFetch = async () => {
     const res = await myAPI.getEntries("cookBook");
-    foodFilter(res.items);
+    filterFoodTypes(res.items);
   }
 
   useEffect(() => {
