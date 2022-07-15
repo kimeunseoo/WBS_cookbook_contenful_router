@@ -5,7 +5,7 @@ const HS_element = ({foodState}) => {
   console.log(foodState);
 
   return (
-    <div>
+    <div className="food-element">
       {
       foodState
       .filter(item => item.fields.name === foodParam.foodId)

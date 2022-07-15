@@ -4,11 +4,8 @@ const HS_container = ({foodHS}) => {
 
 
   return (
-      <div style={{display: "flex"}}>
-          <nav style={{
-            padding: "1rem",
-            marginTop: "3rem"
-          }}>
+      <div className="side-nav-container">
+          <nav className="side-nav">
 
           {foodHS.filter(item => item.fields.type==="hs")
           .map(item => 
@@ -26,7 +23,6 @@ const HS_container = ({foodHS}) => {
               {item.fields.name}
             </NavLink>
           )}
-
           </nav>
           <Outlet />
         </div>

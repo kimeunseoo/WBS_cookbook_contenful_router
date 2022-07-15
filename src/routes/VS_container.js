@@ -3,11 +3,8 @@ import { NavLink, Outlet } from "react-router-dom";
 const VS_container = ({foodVS}) => {
 
   return (
-      <div style={{display: "flex"}}>
-          <nav style={{
-            padding: "1rem",
-            marginTop: "3rem"
-          }}>
+      <div  className="side-nav-container">
+          <nav className="side-nav">
 
           {foodVS.filter(item => item.fields.type==="vs")
           .map(item => 

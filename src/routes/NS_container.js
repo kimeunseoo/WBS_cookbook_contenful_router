@@ -5,11 +5,8 @@ import { NavLink, Outlet } from "react-router-dom";
 const NS_container = ({foodNS}) => {
 
   return (
-      <div style={{display: "flex"}}>
-        <nav style={{
-            padding: "1rem",
-            marginTop: "3rem"
-          }}>
+      <div  className="side-nav-container">
+        <nav className="side-nav">
         {foodNS.filter(item => item.fields.type==="ns")
         .map(item =>
           <NavLink

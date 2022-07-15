@@ -35,7 +35,7 @@ function App() {
   return (
       <Routes >
         <Route path="/" element={<Pagecontainer />} >
-          <Route path="/hauptspeise" element={<HS_container foodHS={state}/>}>
+          <Route path="/hauptspeise" element={<HS_container foodHS={state} />}>
             <Route path=":foodId" element={<HS_element foodState={state} />}/>
             <Route index element={<p>Wählen Sie eine leckere hauptspeise aus!</p>} />
           </Route>
