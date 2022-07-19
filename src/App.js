@@ -62,7 +62,7 @@ function App() {
           </Route>
           <Route
             path="*"
-            element={<p>Nothing here!</p>}
+            element={<p>ERROR 404</p>}
           />
         </Route>
       </Routes>

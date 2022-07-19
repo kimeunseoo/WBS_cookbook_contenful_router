@@ -5,7 +5,6 @@ const VS_container = ({foodVS}) => {
   return (
       <div  className="side-nav-container">
           <nav className="side-nav">
-
           {foodVS
           .map(item => 
             <NavLink
