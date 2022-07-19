@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CookBook-React/static/css/main.de30c92c.css",
-    "main.js": "/CookBook-React/static/js/main.eaaa703f.js",
-    "index.html": "/CookBook-React/index.html",
-    "main.de30c92c.css.map": "/CookBook-React/static/css/main.de30c92c.css.map",
-    "main.eaaa703f.js.map": "/CookBook-React/static/js/main.eaaa703f.js.map"
+    "main.css": "/wbs_cookbook_contenful_router/static/css/main.de30c92c.css",
+    "main.js": "/wbs_cookbook_contenful_router/static/js/main.eaaa703f.js",
+    "index.html": "/wbs_cookbook_contenful_router/index.html",
+    "main.de30c92c.css.map": "/wbs_cookbook_contenful_router/static/css/main.de30c92c.css.map",
+    "main.eaaa703f.js.map": "/wbs_cookbook_contenful_router/static/js/main.eaaa703f.js.map"
   },
   "entrypoints": [
     "static/css/main.de30c92c.css",
