@@ -1,0 +1,1110 @@
+{
+  "sys": {
+    "type": "Array"
+  },
+  "total": 11,
+  "skip": 0,
+  "limit": 100,
+  "items": [
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "45t6eIVkr4cCYylhgIiCOb",
+        "type": "Entry",
+        "createdAt": "2022-07-20T09:01:19.492Z",
+        "updatedAt": "2022-07-20T09:03:22.977Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 6,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "sdfasdfsdaf",
+        "description": "sadfsdafasdfasdf",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "2pXUudfZtfwsB86AQRvZtO"
+          }
+        },
+        "ingredients": {
+          "hdkfhkdjsf": "klsdjflksdjf",
+          "kjsdfklajsldkf": "ljksdhflkjsdh",
+          "skldajflskdj": "sdkljhfklsdhf",
+          "Wasser": "2L"
+        },
+        "type": "hs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "5VjXhboJ72o4Q8qVcBAHH0",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:36:33.370Z",
+        "updatedAt": "2022-07-08T14:42:56.323Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 14,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Gefuellte-Paprika",
+        "description": "Für die gefüllten Paprika die Paprikaschoten waschen und eine Kappe abschneiden. Kerne und Häutchen entfernen. Die Schoten mit Olivenöl bepinseln und auf dem heißen Grill von allen Seiten anbraten.\n\nInzwischen die Fülle vorbereiten. Dafür den Frischkäse in eine Schüssel geben. Mit dem Ei, gehackten Kräutern und geriebenem Bergkäse vermengen. Mit Salz und Pfeffer würzen.\n\nDie Paprikaschoten vom Grill nehmen und vorsichtig mit der Frischkäse-Masse füllen. Erneut auf den Grill legen und die gefüllten Paprika 15-20 Minuten von allen Seiten grillen.\n",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "KttykxMkqAh5d0S9ftroh"
+          }
+        },
+        "ingredients": {
+          "Ei": "1",
+          "Salz": "1TL",
+          "Peffer": "1TL",
+          "Bergkäse": "70g",
+          "Olivenöl": "4EL",
+          "Frischkäse": "250g",
+          "Spitzpaprika": "4",
+          "gehackte Kräuter": "4EL"
+        },
+        "type": "vs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "1vGAaiRTJeXhmBwBB1VueY",
+        "type": "Entry",
+        "createdAt": "2022-07-06T07:24:00.354Z",
+        "updatedAt": "2022-07-07T15:52:34.254Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 6,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Weisser-Ofenspargel",
+        "description": "1. Den Spargel schälen und die Enden abschneiden. Auf einem mit Backpapier ausgelegten Backblech mit 4 EL Öl, 150 ml Wasser und Salz mischen und nebeneinanderlegen. Im vorgeheizten Backofen bei 200 Grad (Gas 3, Umluft 180 Grad) je nach Dicke der Stangen 25 – 30 Minuten auf der mittleren Schiene garen, bis der Spargel ganz leicht bräunt. Lorbeerblätter mehrfach einschneiden. Die Graupen mit Lorbeer in 750 ml Salzwasser aufkochen und nach Packungsanweisung garkochen.\n\n2. In der Zwischenzeit die Vinaigrette vorbereiten. Dafür die Wildkräuter waschen, trocken schütteln und 1/3 davon fein hacken. Pinienkerne in einer Pfanne oder im Ofen bei schwacher Hitze goldbraun rösten und fein hacken. Anschließend mit Senf, Apfelessig, Rapsöl und Zitronensaft vermischen und mit Salz und Pfeffer und einer Prise Zucker abschmecken. Die gehackten Wildkräuter unter die Vinaigrette geben. Gegarte Graupen durch ein Sieb abgießen und ausdampfen lassen, mit ¾ der Vinaigrette mischen und ca. 10 Minuten ziehen lassen.\n\n3. Währenddessen 1 l Wasser mit 100 ml Essig aufkochen. 4 tagesfrische Eier zuerst einzeln in Tassen schlagen, dann jeweils vorsichtig ins leicht siedende Wasser gleiten lassen. Mit einer kleinen Kelle auffangen. Das Eiweiß sollte dabei das Eigelb umhüllen. Die Eier 3 - 4 Min. pochieren, anschließend vorsichtig mit einer Schaumkelle aus dem Wasser heben.\n\n4. Den Spargel für die Optik unten leicht schräg anschneiden und jeweils ein paar Stangen nebeneinander auf den Teller legen. Daneben ca. 4 EL vom Graupensalat auftürmen und mit Wildkräutern und Gartenkresse garnieren. Jeweils ein pochiertes Ei auf den Spargel geben und mit der restlichen Vinaigrette beträufeln, mit Salz und Pfeffer garnieren.",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "1SKjFxjsCbIM4gxP1Layqw"
+          }
+        },
+        "ingredients": {
+          "Eier": "4",
+          "Senf": "2 EL",
+          "Essig": "100 ml",
+          "Wasser": "1.9 l",
+          "Zucker": "1 Prise",
+          "Rapsöl": "2 EL",
+          "Spargel": "1 kg",
+          "Olivenoel": "4 EL",
+          "Apfelessig": "4 EL",
+          "Perlgraupen": "200 g",
+          "Pinienkerne": "80 g",
+          "Wildkräuter": "2 bund",
+          "Zitronensaft": "2 EL",
+          "Lorbeerblätter": 2
+        },
+        "type": "hs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "30LUdfD3qYjqoWgAUAVs7L",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:39:53.871Z",
+        "updatedAt": "2022-07-07T14:03:17.684Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Gebackene-Eierschwammerl",
+        "description": "Für gebackene Eierschwammerl die Eierschwammerl säubern (Nicht waschen!).\n2 Eier mit Salz und Milch in einer Schüssel versprudeln. \nMehl und Semmelbröseln ebenfalls in jeweils eine Schüssel geben.\n\nDie Eierschwammerl portionsweise (ca. 5 Schwammerl) zuerst im Mehl, dann in der Eiermilch und zuletzt in den Bröseln wälzen.\n\nÖl in einer mittelgroßen Pfanne erhitzen und die panierten Eierschwammerl unter mehrmaligem Wenden, schwimmend goldbraun frittieren und auf einer Küchenrolle abtropfen lassen.",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "4jyPkiUguZNf9bymYni7UH"
+          }
+        },
+        "ingredients": {
+          "Mehl": "5EL",
+          "Eier ": "2",
+          "Milch": "70g",
+          "Rapsöl": "1/2L",
+          "Semmelbrösel": "4EL",
+          "Eierschwammerl": "400g"
+        },
+        "type": "vs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "5LRiwfmbT1BOoT5oitUGVV",
+        "type": "Entry",
+        "createdAt": "2022-07-06T07:55:43.254Z",
+        "updatedAt": "2022-07-07T14:02:53.656Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 5,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Apple-Crumble",
+        "description": "Die Apfelspalten mit Zitronensaft beträufeln und in eine gefettete Auflaufform geben. Aus Butter, Zucker, Mehl und etwas Zimtpulver einen Streuselteig bereiten und auf den Äpfeln verteilen. Bei 200 Grad im vorgeheizten Ofen ca. 30 Minuten backen.\n\nWarm mit Eis und Schlagsahne servieren. Zusätzlich kann man über die Äpfel noch Rumrosinen oder auch etwas Calvados träufeln. Sehr lecker schmeckt der Nachtisch auch mit Stachelbeeren oder Brombeeren. ",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "7Mw1t8dxVkFIAx5oljFVGI"
+          }
+        },
+        "ingredients": {
+          "Mehl": "175 g",
+          "Zimt": "eine Prise",
+          "Butter": "100 g",
+          "Zucker": "100 g",
+          "Zitronensaft": "1 Portion",
+          "Aepfel kleingeschnitten ": "500 g"
+        },
+        "type": "ns"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "2JeyqYgnNUeLRLDzipMi5N",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:30:50.578Z",
+        "updatedAt": "2022-07-06T08:41:16.128Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 3,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Rotkraut-Vogerlsalat",
+        "description": "Für den Rotkraut-Vogerlsalat mit Maroni, Speck und Blutorangen den Rotkrautkopf vom Strunk befreien und in dünne Streifen schneiden. Mit Salz und Zucker gut verkneten und ca. 30 Minuten lang ziehen lassen.\nDen Speck auf ein Backblech legen und im Backrohr bei 160°C ca. 15 Minuten lang knusprig braten lassen.\nDen Feta in kleine Würfel brechen, die Blutorangen schälen und in dünne Scheiben schneiden.\nDie Maroni in grobe Stücke hacken, den Zucker in einer Pfanne leicht karamellisieren lassen, die Butter und die Maroni dazugeben und gut durchrühren.\n\nFür das Dressing alle Zutaten gut miteinander vermischen und mit Salz und Pfeffer abschmecken.\n\nDas Dressing zusammen mit dem Vogerlsalat zum Rotkraut geben und gut durchmischen. Das Rotkraut flach auf einen Teller legen, darauf die Orangen, den Feta und die Maroni anrichten.\nAm Schluss den knusprigen Speck darauf anrichten, und den Rotkraut-Vogerlsalat mit Maroni, Speck und Blutorangen sofort servieren.\n",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "43Xtd3MdP32odCSnhfBcDu"
+          }
+        },
+        "ingredients": {
+          "Feta": "170g",
+          "Salz": "1EL",
+          "Peffer": "1TL",
+          "Essig": "170g",
+          "Hoing": "2EL",
+          "Speck": "6 Schreiben",
+          "Butter": "1EL",
+          "Maroni": "6",
+          "Orange": "2",
+          "Zucker": "1EL",
+          "Rotkraut": "1 kopf",
+          "Vogerlsalat": "100g"
+        },
+        "type": "vs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "2OccYAURqkoX9MF6kiF4xw",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:15:57.721Z",
+        "updatedAt": "2022-07-06T08:15:57.721Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Obst-Pfannkuchen",
+        "description": "Die Eigelbe vom Eiweiß trennen. Das Obst vorbereiten: z.B. Äpfel schälen, entkernen, achteln und in feine Scheiben schneiden oder die Beeren verlesen.\n\nDie Eigelbe mit Zucker, Vanillinzucker, Mehl, Milch und Salz zu einem glatten Teig verrühren. Die Eiweiße zu steifem Schnee schlagen. Zunächst das Obst unter den Teig rühren, dann den Eischnee vorsichtig unterheben.\n\nFett in einer Pfanne zergehen lassen und dicke Pfannkuchen darin bei schwacher bis mittlerer Hitze goldbraun backen. Die Pfannkuchen auf einen Teller legen und mit Zucker bestreuen.\n\nErgibt etwa 12 Pfannkuchen.\n\nTipp: Die Pfannkuchen nicht zu lange backen. Am besten schmecken sie, wenn sie innen noch schön weich sind.\n\nSie passen sehr gut als Beilage zu Rheinischer Bohnensuppe (siehe meine Rezepte) oder zu anderen süßen Gerichten wie Milchreis. ",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "1BNcwSjskOxvcyHATkLhEX"
+          }
+        },
+        "ingredients": {
+          "Mehl": "250 g",
+          "Zucker": "zum Betreuen",
+          "Eier": "3",
+          "Vanillinzucker": "2 Pck.",
+          "Milch": "200 ml",
+          "Salz ": "1/2 TL",
+          "Obst (Aepfel, Kirschen oder Beeren)": "2 St oder 400 g",
+          "Butter oder Oel": "zum Braten"
+        },
+        "type": "ns"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "3woCnWYdteza7im15SreJ1",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:10:12.539Z",
+        "updatedAt": "2022-07-06T08:10:49.150Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Kaiserschmarrn",
+        "description": "Mehl mit Milch, Vanillezucker und Salz glatt verrühren. Das geht am besten mit einem Schneebesen. Dotter einrühren. Eiweiß mit Kristallzucker steif schlagen und unter den Teig heben.\n\nButter in einer ofenfesten Pfanne erhitzen. Den Teig eingießen und die Rosinen darüber streuen.\n\nIm vorgeheizten Backrohr bei ca. 200 °C Ober-/Unterhitze 15 Minuten backen, danach in Viertel teilen. Wenden und in weiteren 10 Minuten fertig backen.\n\nIn Stücke teilen, mit Kristallzucker bestreuen und im Backrohr karamellisieren lassen.\n\nMit Staubzucker bestreut anrichten, dazu Pflaumenkompott servieren. ",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "47u3Vm5F03806aEvPXxQyc"
+          }
+        },
+        "ingredients": {
+          "Mehl": "130 g",
+          "Milch": "250 ml",
+          "Salz ": "1 Prise",
+          "Butter": "50 g",
+          "Eigelb": "4",
+          "Zucker": "50 g",
+          "Eiweiß": "4",
+          "Rosinen": "50 g",
+          "Vanillezucker": "1 EL",
+          "Zucker zum Karamellisieren": "30 g",
+          "Puderzucker (Staubzucker) zum Bestreuen": "n. B."
+        },
+        "type": "ns"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "4vm4MLaJhJTMMArdJ3R77q",
+        "type": "Entry",
+        "createdAt": "2022-07-06T08:02:13.571Z",
+        "updatedAt": "2022-07-06T08:09:44.658Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Quarkbaellchen",
+        "description": "Zuerst Quark, Zucker, Vanilleextrakt und Eier miteinander vermischen. Mehl, Salz und Backpulver separat vermengen und nach und nach zu dem Teig hinzufügen. Die Masse so lange rühren, bis sie eine feste, zähe Konsistenz erreicht hat.\n\nDas Fett in einem Topf erhitzen. Alternativ das Fett in der Fritteuse auf 160 - 170 °C erhitzen. Am besten mit zwei Esslöffeln kleine Kugeln aus dem Teig formen und direkt in das heiße Fett geben. Die Quarkbällchen goldbraun backen und im Anschluss für kurze Zeit auf einem Küchentuch von überschüssigem Fett befreien. Die noch warmen Bällchen in Zucker wälzen und servieren. ",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "1fTGmHNi4vatwGpxgaAmYe"
+          }
+        },
+        "ingredients": {
+          "Eier": "4 Stück",
+          "Mehl": "500 g",
+          "Salz": "1 Prise",
+          "Quark": "500 g",
+          "Zucker": "zum Waelzen",
+          "Backpulver": "1 Pck.",
+          "Pflanzenfett": "1kg",
+          "Vanilleextrakt ": "2 TL"
+        },
+        "type": "ns"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "jSKubLRqQGQcnVx1TvcqE",
+        "type": "Entry",
+        "createdAt": "2022-07-06T07:58:39.566Z",
+        "updatedAt": "2022-07-06T08:08:47.915Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "Salsiccia-Meatballs",
+        "description": "Wurstbrät aus der Pelle drücken und mit feuchten Händen zu kleinen Bällchen formen. Olivenöl in einer großen Pfanne erhitzen und die Meatballs darin bei mittlerer Hitze rundum braten.\n\nWährenddessen Zwiebeln fein würfeln und mit Fenchelsaat in die Pfanne geben. Knoblauch dazupressen und 3 - 4 Minuten unter gelegentlichem Rühren farblos mitbraten.\n\nTomatenstücke dazugeben, mit Salz und Pfeffer würzen und ca. 20 Minuten bei nicht zu starker Hitze einkochen.\n\nBasilikumblätter abzupfen, grob schneiden und über die Sauce streuen.\n\nMit gekochter Pasta servieren.",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "4bjTmmJVT0bVh2OcBqyhLU"
+          }
+        },
+        "ingredients": {
+          "Tomaten": "600 g",
+          "Zwiebel": 2,
+          "Basilikum": "1 kl. Bund",
+          "Knoblauch": "2 Zehen",
+          "Olivenoel": "2 El",
+          "Salsiccia": "300 g",
+          "Fenchelsamen": "1 TL"
+        },
+        "type": "hs"
+      }
+    },
+    {
+      "metadata": {
+        "tags": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "71z4boqcwsu8"
+          }
+        },
+        "id": "6D5mL0fVaTLtPW2UCfUvPC",
+        "type": "Entry",
+        "createdAt": "2022-07-06T07:55:30.622Z",
+        "updatedAt": "2022-07-06T08:08:37.989Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "revision": 2,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cookBook"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "name": "One-Pot-Spaetzle",
+        "description": "1. Hähnchen trocken tupfen und in Würfel schneiden. Lauch waschen, putzen und in feine Ringe schneiden, Möhren schälen, waschen und in kleine Würfel schneiden. Öl in einem Topf erhitzen und Hähnchen darin ca. 2 Minuten anbraten.\n\n2. Lauch und Möhren zugeben und weitere ca. 2 Minuten braten. Tomatenmark und Sambal Oelek zugeben, kurz mitbraten und mit Sahne und Brühe ablöschen. Spätzle zugeben und ca. 2 Minuten köcheln lassen.\n\n3. One-Pot-Spätzle mit Käse verfeinern, mit Salz und Pfeffer abschmecken und mit Petersilie bestreut servieren.",
+        "picture": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Asset",
+            "id": "UcTdFx56xav6tSTRhlFub"
+          }
+        },
+        "ingredients": {
+          "Gouda": "3 EL",
+          "Lauch": "1 Stange",
+          "Sahne": "100 ml",
+          "Moehren": 2,
+          "Petersilie": "1 EL",
+          "Pflanzenöl": "1 EL",
+          "Tomatenmark": "1 TL",
+          "Sambal Oelek": "1 EL",
+          "Geflügelbrühe": "250 ml",
+          "HENGLEIN Spätzle": "400 g",
+          "Haehnchenbrustfilet": "500 g"
+        },
+        "type": "hs"
+      }
+    }
+  ],
+  "includes": {
+    "Asset": [
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "1BNcwSjskOxvcyHATkLhEX",
+          "type": "Asset",
+          "createdAt": "2022-07-06T08:12:53.642Z",
+          "updatedAt": "2022-07-06T08:12:53.642Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "obst-pfannkuchen",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/1BNcwSjskOxvcyHATkLhEX/fa10e0aa0522c724699c1b7474be2a5c/obst-pfannkuchen.jpg",
+            "details": {
+              "size": 150796,
+              "image": {
+                "width": 960,
+                "height": 640
+              }
+            },
+            "fileName": "obst-pfannkuchen.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "1SKjFxjsCbIM4gxP1Layqw",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:23:28.901Z",
+          "updatedAt": "2022-07-06T07:23:28.901Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "weisser-ofenspargel-mit-graupen-wildkraeutersalat",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/1SKjFxjsCbIM4gxP1Layqw/966a6498bd1bd064acab839d80f99bfd/weisser-ofenspargel-mit-graupen-wildkraeutersalat.jpg",
+            "details": {
+              "size": 50618,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "weisser-ofenspargel-mit-graupen-wildkraeutersalat.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "1fTGmHNi4vatwGpxgaAmYe",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:56:52.439Z",
+          "updatedAt": "2022-07-06T07:56:52.439Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "quarkbaellchen",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/1fTGmHNi4vatwGpxgaAmYe/b2be15600f4ca68c5d19406f6b98ab97/quarkbaellchen.jpg",
+            "details": {
+              "size": 61322,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "quarkbaellchen.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "2pXUudfZtfwsB86AQRvZtO",
+          "type": "Asset",
+          "createdAt": "2022-07-20T09:01:07.510Z",
+          "updatedAt": "2022-07-20T09:01:07.510Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "download",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/2pXUudfZtfwsB86AQRvZtO/d0dddb3ee075ba6fae16c8996807243e/download.jpeg",
+            "details": {
+              "size": 14257,
+              "image": {
+                "width": 270,
+                "height": 187
+              }
+            },
+            "fileName": "download.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "43Xtd3MdP32odCSnhfBcDu",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:58:16.073Z",
+          "updatedAt": "2022-07-06T07:58:16.073Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "rezept-fuer-rotkraut-vogerlsalat-mit-maroni-speck-und-orangen-img-32235",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/43Xtd3MdP32odCSnhfBcDu/19188b58a7000c0f8406634153b8ca34/rezept-fuer-rotkraut-vogerlsalat-mit-maroni-speck-und-orangen-img-32235.jpeg",
+            "details": {
+              "size": 37047,
+              "image": {
+                "width": 496,
+                "height": 384
+              }
+            },
+            "fileName": "rezept-fuer-rotkraut-vogerlsalat-mit-maroni-speck-und-orangen-img-32235.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "47u3Vm5F03806aEvPXxQyc",
+          "type": "Asset",
+          "createdAt": "2022-07-06T08:03:48.021Z",
+          "updatedAt": "2022-07-06T08:04:21.623Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 2,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "kaiserschmarrn",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/47u3Vm5F03806aEvPXxQyc/b91503255969c1f4243373b3e7fea24d/altbaerlis-kaiserschmarrn.jpg",
+            "details": {
+              "size": 83545,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "altbaerlis-kaiserschmarrn.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "4bjTmmJVT0bVh2OcBqyhLU",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:58:35.565Z",
+          "updatedAt": "2022-07-06T07:58:35.565Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "salsiccia-meatballs-in-tomatensauce",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/4bjTmmJVT0bVh2OcBqyhLU/66d72feb3dbbad9f8c0dab753700c04c/salsiccia-meatballs-in-tomatensauce.jpg",
+            "details": {
+              "size": 78692,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "salsiccia-meatballs-in-tomatensauce.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "4jyPkiUguZNf9bymYni7UH",
+          "type": "Asset",
+          "createdAt": "2022-07-06T08:37:52.109Z",
+          "updatedAt": "2022-07-06T08:37:52.109Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "gebackene-eierschwammerl-img-46326",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/4jyPkiUguZNf9bymYni7UH/49b7f65d672ad9a90c83936b50e0d6c3/gebackene-eierschwammerl-img-46326.jpeg",
+            "details": {
+              "size": 49627,
+              "image": {
+                "width": 496,
+                "height": 384
+              }
+            },
+            "fileName": "gebackene-eierschwammerl-img-46326.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "7Mw1t8dxVkFIAx5oljFVGI",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:54:59.252Z",
+          "updatedAt": "2022-07-06T07:54:59.252Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "apple-crumble",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/7Mw1t8dxVkFIAx5oljFVGI/42e5025a0d93519414d4e69f4b21cd8c/apple-crumble.jpg",
+            "details": {
+              "size": 222936,
+              "image": {
+                "width": 960,
+                "height": 640
+              }
+            },
+            "fileName": "apple-crumble.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "KttykxMkqAh5d0S9ftroh",
+          "type": "Asset",
+          "createdAt": "2022-07-06T08:36:11.668Z",
+          "updatedAt": "2022-07-06T08:36:11.668Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "gefuellte-paprika-mit-frischkaese-kraeuter-fuelle-img-96308",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/KttykxMkqAh5d0S9ftroh/647fc0ef93bf0d8831633af0798332aa/gefuellte-paprika-mit-frischkaese-kraeuter-fuelle-img-96308.jpeg",
+            "details": {
+              "size": 27376,
+              "image": {
+                "width": 496,
+                "height": 384
+              }
+            },
+            "fileName": "gefuellte-paprika-mit-frischkaese-kraeuter-fuelle-img-96308.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      },
+      {
+        "metadata": {
+          "tags": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "71z4boqcwsu8"
+            }
+          },
+          "id": "UcTdFx56xav6tSTRhlFub",
+          "type": "Asset",
+          "createdAt": "2022-07-06T07:51:18.959Z",
+          "updatedAt": "2022-07-06T07:51:18.959Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "revision": 1,
+          "locale": "en-US"
+        },
+        "fields": {
+          "title": "org",
+          "description": "",
+          "file": {
+            "url": "//images.ctfassets.net/71z4boqcwsu8/UcTdFx56xav6tSTRhlFub/bf53c704d6e5a1c8d8ee6d8e4daa2bc9/org.jpeg",
+            "details": {
+              "size": 89502,
+              "image": {
+                "width": 600,
+                "height": 400
+              }
+            },
+            "fileName": "org.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    ]
+  }
+}
