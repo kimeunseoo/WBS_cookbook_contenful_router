@@ -1,5 +1,5 @@
 import "./App.css";
-import * as contentful from "contentful";
+//import * as contentful from "contentful";
 import { useEffect, useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import HS_container from "./routes/HS_container";
@@ -10,6 +10,10 @@ import VS_element from "./routes/VS_element";
 import NS_element from "./routes/NS_element";
 import Pagecontainer from "./routes/Pagecontainer";
 import { data_cookbook } from "./data_cookbook.json";
+import express from "expresss";
+import server from "./server";
+
+var app = express();
 
 function App() {
   /* 
@@ -28,6 +32,11 @@ function App() {
     setFilteredNS(items.filter((item) => item.fields.type === "ns"));
   };
 
+  app.use(express.json()); // -> req.body
+  const port = process.env.PORT || 8080;
+
+  var server = app.listen(port, () => console.log("connected!" + port));
+
   // useEffect(() => {
   //   myAPI.getEntries("cookBook")
   //   .then(res => setState(res.items))
@@ -43,8 +52,6 @@ function App() {
     const res = await myAPI.getEntries("data_cookBook.json");
     filterFoodTypes(res.items);
   };
-
-  
 
   useEffect(() => {
     try {
