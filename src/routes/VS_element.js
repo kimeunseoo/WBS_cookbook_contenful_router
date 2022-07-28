@@ -12,7 +12,7 @@ const VS_element = ({foodState}) => {
         .map((item, index) => (
           <div key={index}>
             <h2>{item.fields.name}</h2>
-            <img src={item.fields.picture.fields.file.url} alt="vs" />
+            {/* <img src={item.fields.picture.fields.file.url} alt="vs" /> */}
             <p>{item.fields.description}</p>
             <ul>Zutaten:
               {Object.keys(item.fields.ingredients)
